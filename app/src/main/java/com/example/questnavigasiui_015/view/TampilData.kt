@@ -30,3 +30,8 @@ import com.example.questnavigasiui_015.R
 fun TampilData(
     onBackBtnClick:()->Unit
 ){
+    val items = listOf(
+        Pair(first= stringResource(id = R.string.nama_lengkap), "Contoh Nama"),
+        Pair(first= stringResource(id = R.string.jenis_kelamin), "Lainnya"),
+        Pair(first= stringResource(id = R.string.alamat), "Yogyakarta"),
+    )
